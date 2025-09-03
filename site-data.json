@@ -1,87 +1,118 @@
 {
   "personal": {
-    "name": "Bill Gates",
-    "tagline": "Chair of Gates Foundation, Founder of Breakthrough Energy, Co-founder of Microsoft",
-    "picture": "profile.jpeg",
-    "website": "https://www.gatesnotes.com/",
-    "linkedin": "https://www.linkedin.com/in/williamhgates",
-    "email": "bill.gates@gatesfoundation.org",
-    "about": "Dedicated to tackling global health challenges and climate change through innovation and strategic philanthropy. Passionate about leveraging technology to solve humanity's greatest problems.\n\nVoracious reader with a personal blog where I share insights on books and global issues. Avid traveler exploring both developed and developing regions to understand local challenges firsthand."
+    "name": "Ayan Mulla",
+    "tagline": "MSc Computer Science Student | Data Scientist Intern @ CeADAR | MLH x Meta Production Engineering Fellow",
+    "picture": "profile.jpg",
+    "website": "https://github.com/AyanMulla09",
+    "linkedin": "https://www.linkedin.com/in/ayan-mulla",
+    "email": "ayan.a.mulla9@gmail.com",
+    "about": "Graduate student at University College Dublin pursuing MSc in Computer Science, with strong experience in backend development, production engineering, and applied AI. Skilled in building scalable systems, orchestrating AI pipelines, and solving complex technical challenges through clean, reliable solutions. Passionate about cloud-native architectures, large language models, and real-time data pipelines."
   },
   "experience": [
     {
-      "date": "Jan 2000 - Present",
-      "role": "Co-chair",
-      "company": "Gates Foundation",
+      "date": "May 2025 – Present",
+      "role": "Data Scientist Intern",
+      "company": "CeADAR - Ireland’s Centre for AI",
       "description": [
-        "Guides the foundation's vision and strategic direction to tackle global challenges in health and poverty.",
-        "Advocates for initiatives in areas like disease eradication, vaccine development, and agricultural innovation.",
-        "Focuses on improving K-12 and postsecondary education in the United States."
+        "Built an automated research pipeline using LangGraph to discover, filter, and analyze academic papers from arXiv.",
+        "Integrated LLMs for intelligent topic generation and full-text analysis.",
+        "Engineered modular workflows using Python, Pydantic, and PDF processing tools for scalable, state-driven orchestration.",
+        "Designed multi-stage AI relevance filters and structured output pipelines to generate CSV/JSON research insights."
       ]
     },
     {
-      "date": "Nov 2015 - Present",
-      "role": "Founder",
-      "company": "Breakthrough Energy",
+      "date": "Jun 2025 – Present",
+      "role": "Production Engineering Fellow",
+      "company": "Major League Hacking X Meta",
       "description": [
-        "Leads a network of entities committed to accelerating innovation in clean energy and sustainable technologies.",
-        "Drives investment in and development of solutions to achieve net-zero carbon emissions.",
-        "Works to make clean energy more reliable, affordable, and accessible for everyone."
+        "Selected for a competitive fellowship to gain hands-on experience in production engineering with Meta engineers.",
+        "Participated in weekly training sessions, programming challenges, and deep dives on scalability, CI/CD, and observability.",
+        "Built and maintained infrastructure components using Linux, Python, Docker, and monitoring tools.",
+        "Collaborated in an agile team to develop reliable backend systems and debug production-level issues."
       ]
     },
     {
-      "date": "Apr 1975 - Present",
-      "role": "Co-founder",
-      "company": "Microsoft",
+      "date": "Oct 2022 – Jul 2024",
+      "role": "Product Support Engineer",
+      "company": "VMobi Solutions Pvt. Ltd.",
       "description": [
-        "Co-founded Microsoft with Paul Allen, building it into the world's largest PC software company.",
-        "Served as the original architect of the company's software, including writing the first BASIC interpreter for the Altair 8800.",
-        "Led the company as CEO until 2000, overseeing the development of pivotal products like MS-DOS and the Microsoft Windows operating system."
+        "Configured web servers, DNS records, and SMTP to provide technical support for customers.",
+        "Automated email workflows to improve efficiency and reduce manual errors.",
+        "Resolved product-related technical issues and collaborated with developers to enhance customer experience.",
+        "Earned 500+ CSATs within 6 months by consistently delivering high-quality support."
+      ]
+    },
+    {
+      "date": "Aug 2021 – Apr 2022",
+      "role": "Project Intern",
+      "company": "IMA-PG",
+      "description": [
+        "Collected and cleaned live machine data via PLC and stored results in SQL databases.",
+        "Developed real-time dashboards with PHP and Chart.js for packaging machine KPI monitoring.",
+        "Deployed interfaces for global technician use and implemented proactive alerting systems.",
+        "Published a research paper based on the project work during the internship."
       ]
     }
   ],
   "education": [
     {
-      "date": "Sep 1973 - Jan 1975",
-      "institution": "Harvard University",
-      "degree": "Studied Applied Mathematics & Computer Science (did not graduate); Awarded Honorary Doctorate in 2007.",
-      "description": [
-        "Enrolled in the pre-law program before shifting focus to computer science and advanced mathematics.",
-        "Left after two years to start Microsoft with Paul Allen."
-      ]
+      "date": "Sep 2024 – Present",
+      "institution": "University College Dublin",
+      "degree": "Master of Science in Computer Science",
+      "description": ["Specializing in backend systems, data pipelines, and AI applications."]
     },
     {
-      "date": "Jun 1973",
-      "institution": "Lakeside School",
-      "degree": "High School Diploma",
-      "description": [
-        "Developed early programming skills on the school's computer.",
-        "Met future Microsoft co-founder Paul Allen."
-      ]
+      "date": "Aug 2018 – May 2022",
+      "institution": "University of Mumbai",
+      "degree": "Bachelor of Engineering in Information Technology",
+      "description": ["Built strong foundations in computer science, programming, and system design."]
     }
   ],
-  "certifications": [
-    { "name": "Honorary Doctor of Laws, University of Cambridge (2009)" },
-    { "name": "Honorary Doctor of Medicine, Karolinska Institute (2008)" },
-    { "name": "Honorary Doctor of Laws, Harvard University (2007)" },
-    { "name": "Honorary Doctor of International Relations, Tsinghua University (2007)" },
-    { "name": "Honorary Doctor of Laws, Waseda University (2005)" }
-  ],
-  "achievements": [
-    { "name": "Presidential Medal of Freedom (2016)" },
-    { "name": "Lasker-Bloomberg Public Service Award (2013)" },
-    { "name": "Time Person of the Year (2005, with Melinda Gates and Bono)" },
-    { "name": "Knight Commander of the Order of the British Empire (KBE) (2005)" },
-    { "name": "National Medal of Technology and Innovation (1992)" }
+  "certifications": [{ "name": "Java for Cloud – NIIT StackRoute" }],
+  "projects": [
+    {
+      "name": "NewsFlash",
+      "date": "Dec 2024",
+      "description": [
+        "Built a real-time, fault-tolerant system for collecting and displaying news using distributed microservices.",
+        "Developed FastAPI-based APIs, used Kafka for stream ingestion, Redis for caching, and PostgreSQL for structured storage.",
+        "Deployed services with Kubernetes for scalability and resilience."
+      ],
+      "link": "https://github.com/AyanMulla09/NewsFlash"
+    },
+    {
+      "name": "Research Paper Publication",
+      "date": "Apr 2022",
+      "description": [
+        "Published research paper based on PLC data collection and real-time monitoring dashboards built during IMA-PG internship."
+      ],
+      "link": "https://ijarcce.com/wp-content/uploads/2022/04/IJARCCE.2022.11407.pdf"
+    }
   ],
   "skills": [
-    { "name": "Software Development" },
-    { "name": "Business Strategy" },
-    { "name": "Philanthropy" },
-    { "name": "Public Health" },
-    { "name": "Clean Energy" },
-    { "name": "Technology Innovation" },
-    { "name": "Public Speaking" },
-    { "name": "Strategic Leadership" }
+    { "name": "Python" },
+    { "name": "Java" },
+    { "name": "SQL" },
+    { "name": "JavaScript" },
+    { "name": "Bash" },
+    { "name": "HTML/CSS" },
+    { "name": "FastAPI" },
+    { "name": "Spring Boot" },
+    { "name": "Node.js" },
+    { "name": "LangGraph" },
+    { "name": "Pydantic" },
+    { "name": "Chart.js" },
+    { "name": "Kafka" },
+    { "name": "Redis" },
+    { "name": "PostgreSQL" },
+    { "name": "MongoDB" },
+    { "name": "Docker" },
+    { "name": "Kubernetes" },
+    { "name": "AWS" },
+    { "name": "Linux" },
+    { "name": "CI/CD" },
+    { "name": "Git" },
+    { "name": "PLC Systems" },
+    { "name": "Zendesk" }
   ]
 }
